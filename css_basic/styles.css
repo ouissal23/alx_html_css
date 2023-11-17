@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+} 
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+    flex:auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto; 
+    padding:0%;
+
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+    padding: 0%;
+}
+table,th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+}
